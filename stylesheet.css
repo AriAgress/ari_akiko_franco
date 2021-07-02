@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .main {
@@ -26,6 +25,7 @@ body {
   align-items: center; */
   font-size: 100px;
   font-weight: bold;
+  letter-spacing: -5px;
 }
 
 .line1 {
@@ -41,6 +41,7 @@ h1 {
   margin: 0;
   font-size: 60px;
   font-weight: bold;
+  letter-spacing: -2px;
 }
 
 p {
@@ -130,3 +131,5 @@ p {
   padding: 20px;
   background-color: #05b2d2;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
